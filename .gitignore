@@ -1,0 +1,31 @@
+# 构建目录
+build/
+bin/
+
+# 编译产物
+*.o
+*.obj
+*.exe
+
+# 测试构建垃圾
+test/testmuduo/testjson/
+test/testmuduo/testmuduo/
+test/testmuduo/Makefile
+test/testmuduo/cmake_install.cmake
+test/testmuduo/CMakeFiles/
+test/testmuduo/compile_commands.json
+
+# Python 测试脚本
+test_lisi.py
+test_zhangsan.py
+test_login.py
+
+# IDE
+.vscode/
+.claude/
+
+# 系统
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
